@@ -1,0 +1,16 @@
+{
+  "name": "gitbook",
+  "version": "1.0.0",
+  "description": "1. 自我介紹 2. 看到好的 (不勉強) 3. 看到可以改善的 (不勉強) 4. 目前手上進行的項目 5. 試用期三個月目標 (Slim 雛型、協助等時圈專案上線、啟動 C 內部定期技術分享)",
+  "main": "index.js",
+  "dependencies": {
+    "gitbook-plugin-harrytodo": "^0.1.1",
+    "gitbook-plugin-toggle-chapters": "0.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
