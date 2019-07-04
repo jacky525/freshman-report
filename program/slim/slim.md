@@ -1,4 +1,4 @@
-# slim
+# slim 3 + DI6
 
   #### `repo`
   * <https://github.com/104corp/104jb-c-slim3-proto>
@@ -25,19 +25,37 @@
     //開始 shell 建立 相關套件  
      ..... install web server and configure
           
-#### `composer`
-       
 #### `proto`
-    DI
-        
-    log
-        
-    cache
-        
-    test
-         
-    swagger
-        
     
+    DI          "php-di/slim-bridge"
+    
+    config      "symfony/dotenv"
+        parse config and set to env
+    
+    template    "slim/twig-view"
+        
+    log         "104corp/jblog"
+        
+    cache       "symfony/cache"
+        
+    test          "codeception/codeception"
+        configure codeception.yml
+        php vendor/bin/codecept run
+        
+    code style    "squizlabs/php_codesniffer"
+        configure phpcs.xml 
+        php vendor/bin/phpcs
+        
+    swagger     "zircote/swagger-php" 
+        vendor/bin/openapi app/ --output ${SWAGGER_FILE}
+        
   #### `CICD`
     
+    Travis CI
+        configure .travis.yml
+    
+    AWS
+        IAM S3 EC2 
+        
+    AWS CodeDeploy
+        appspec.yml
