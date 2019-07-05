@@ -27,35 +27,49 @@
           
 #### `proto`
     
-  * DI          "php-di/slim-bridge"
-    
-  * config      "symfony/dotenv"
-        parse config and set to env
-    
-  * template    "slim/twig-view"
+      * DI          "php-di/slim-bridge"
         
-  * log         "104corp/jblog"
+      * config      "symfony/dotenv"
+            parse config and set to env
         
-  * cache       "symfony/cache"
-        
-  * test          "codeception/codeception"
-        configure codeception.yml
-        php vendor/bin/codecept run
-        
-  * code style    "squizlabs/php_codesniffer"
-        configure phpcs.xml 
-        php vendor/bin/phpcs
-        
-  * swagger     "zircote/swagger-php" 
-        vendor/bin/openapi app/ --output ${SWAGGER_FILE}
-        
+      * template    "slim/twig-view"
+            
+      * log         "104corp/jblog"
+            
+      * cache       "symfony/cache"
+            
+      * test          "codeception/codeception"
+            configure codeception.yml
+            // init
+            php vendor/bin/codecept bootstrap
+            // generate test case
+            php vendor/bin/codecept generate:cest acceptance First
+            // run test
+            php vendor/bin/codecept run
+            
+      * code style    "squizlabs/php_codesniffer"
+            configure phpcs.xml 
+            php vendor/bin/phpcs
+            
+      * swagger     "zircote/swagger-php" 
+            vendor/bin/openapi app/ --output ${SWAGGER_FILE}
+            
   #### `CICD`
     
-  * Travis CI
-        configure .travis.yml
-    
-  * AWS
-        IAM S3 EC2 
-        
-  * AWS CodeDeploy
-        appspec.yml
+      * Travis CI
+            configure .travis.yml
+      * install awscli
+            - pip install --user awscli 
+      * AWS
+            IAM
+                create user 
+                create Roles
+                create Policies 
+            S3 
+                create S3
+            EC2 
+                create EC2
+            Tools
+                create CodeDeploy      
+      * AWS CodeDeploy
+            appspec.yml
