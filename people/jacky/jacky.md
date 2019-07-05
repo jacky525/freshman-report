@@ -3,15 +3,17 @@
  
  - 名字   ：林揚正/Jacky
  - 家鄉   ：台南
- - 學校科系：文化大學/資管所
+ - 學校科系：台南二中、文化大學/資管所
  - 興趣：籃球、Bass
  - 旅遊：東京、加州、以色列、緬甸、柬埔寨
+ - 社團經驗：康輔社 副社長、班聯會 主席
 
 ---
 
 # 工作
 
 #### 愛立信 Ericsson Freelancer（ 6m ）
+    CentOS
     裕民航運 船隻監控系統 -- angular js + Java spring  
 
 #### 和盟電子商務（ 2y ）
@@ -21,10 +23,12 @@
     PHP
     
 #### 敦陽科技 Stark（ 4y ）
+    Redhat Enterprise
     台灣大哥大購物商城系統 -- PHP
     導入與客制 Teamsite CMS -- Java + cgi
 
 #### Freelancer（ 1y ）
+    ubuntu
     廣告公司做的IOS民調系統 -- PHP api
     環保署的投票系統 -- PHP
     聯發科的smart TV -- flash
