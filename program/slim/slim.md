@@ -64,12 +64,19 @@
             IAM
                 create user 
                 create Roles
+                    forec2
+                        - AWSCodeDeployFullAccess
+                        - AmazonS3ReadOnlyAccess
+                    forcodedeploy
+                        - AWSCodeDeployRole
                 create Policies 
             S3 
                 create S3
             EC2 
                 create EC2
             Tools
-                create CodeDeploy      
+                create CodeDeploy 
+      ec2 machine 
+            install codedeploy agent           
       * AWS CodeDeploy
             appspec.yml

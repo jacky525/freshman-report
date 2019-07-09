@@ -10,5 +10,5 @@
     * [Slim 雛型](program/slim/slim.md)
     * [協助等時圈專案上線](program/openbird/openbird.md)
     * [內部定期技術分享](program/study/study.md)
-    * [yii](program/yii/yii.md)
+
 

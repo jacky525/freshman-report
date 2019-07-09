@@ -13,25 +13,31 @@
 # 工作
 
 #### 愛立信 Ericsson Freelancer（ 6m ）
-    CentOS
+    CentOS 7
+    keepalived + haproxy + Jboss + MariaDB Galera Cluster
     裕民航運 船隻監控系統 -- angular js + Java spring  
 
 #### 和盟電子商務（ 2y ）
-    CentOS
+    CentOS 7
     keepalived + haproxy + nginx + GFS + MariaDB Galera Cluster
     弱點掃描 Acunetix
     PHP
+        郵局 購物商城系統
+        Line 購物商城系統
+        新光三越 購物商城系統
+        台灣大哥大 購物商城系統
+        大潤發 購物商城系統
     
 #### 敦陽科技 Stark（ 4y ）
-    Redhat Enterprise
+    Redhat Enterprise 6
     台灣大哥大購物商城系統 -- PHP
     導入與客制 Teamsite CMS -- Java + cgi
 
 #### Freelancer（ 1y ）
-    ubuntu
-    廣告公司做的IOS民調系統 -- PHP api
-    環保署的投票系統 -- PHP
-    聯發科的smart TV -- flash
+    ubuntu 
+    廣告公司 IOS民調系統 -- PHP api
+    環保署   投票系統 -- PHP
+    聯發科   smart TV -- flash
 #### 寬宇科技 Xtera（ 4y10m ）
     Hack and porting in ARM architecture
     Load Balance -- tunnel develop (like IPsec VPN)（使用 C、cgi）
