@@ -1,7 +1,36 @@
 #讀書會分享
     https://github.com/104corp/104jb-c-CTeamKnowHow/wiki
 
-### 1. Slim 3 
+
+### 1. Yii  1.1
+
+   * 程式架構
+      
+        [Model-View-Controller](https://www.yiiframework.com/doc/guide/1.1/en/basics.mvc)
+   ```     
+    Application Life Cycle
+        When handling a user request, an application will undergo the following life cycle:
+        
+        1.  Pre-initialize the application with CApplication::preinit();
+        
+        2.  Set up the error handling;
+        
+        3.  Register core application components;
+        
+        4.  Load application configuration;
+        
+        5.  Initialize the application with CApplication::init()
+             *   Register application behaviors;
+             *   Load static application components;
+        6.  Raise an onBeginRequest event;
+        
+        7.  Process the user request:
+             *   Collect information about the request;
+             *   Create a controller;
+             *   Run the controller;
+        8.  Raise an onEndRequest event;
+    ```
+### 2. Slim 3 
 
    * 程式架構
    
@@ -10,7 +39,7 @@
         [Middleware](http://www.slimframework.com/docs/v3/concepts/middleware.html)
     
    * 套件介紹 
-    
+    ```
     "require":{
         "php": "^7.0",
         "codeception/codeception": "^2.5",
@@ -32,27 +61,22 @@
         "phpunit/phpunit": "~4.0",
         "zircote/swagger-php": "^3.0"
     }
-
-### 2. Yii  1.1
-
-   * 程式架構
-      
-        [Model-View-Controller](https://www.yiiframework.com/doc/guide/1.1/en/basics.mvc)
-
-
-### 3. AWS
-
-   * [案例分享](https://aws.amazon.com/tw/getting-started/use-cases/?awsf.getting-started-content=use-case%23websites-apps)
-   
-### 4. Laravel
+    ```
+### 3. Laravel
 
    * 程式架構
    
         [Laravel](https://laravel.com/docs/5.8/lifecycle)
 
 
-### 5. Free Talk
+### 4. Free Talk
     工具、工作...等分享
+
+### 5. AWS
+
+   * [案例分享](https://aws.amazon.com/tw/getting-started/use-cases/?awsf.getting-started-content=use-case%23websites-apps)
+   
+
 
 ### 參考學習文件
 
