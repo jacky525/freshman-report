@@ -1,6 +1,7 @@
 #讀書會分享
+    https://github.com/104corp/104jb-c-CTeamKnowHow/wiki
 
-### Slim 3 
+### 1. Slim 3 
 
    * 程式架構
      [Slim](http://www.slimframework.com/docs/v3/concepts/life-cycle.html)
@@ -30,23 +31,23 @@
         "zircote/swagger-php": "^3.0"
     }
 
-### Yii  1.1
+### 2. Yii  1.1
 
    * 程式架構
       [Model-View-Controller](https://www.yiiframework.com/doc/guide/1.1/en/basics.mvc)
 
 
-### AWS
+### 3. AWS
 
    * [案例分享](https://aws.amazon.com/tw/getting-started/use-cases/?awsf.getting-started-content=use-case%23websites-apps)
    
-### Laravel
+### 4. Laravel
 
    * 程式架構
     [Laravel](https://laravel.com/docs/5.8/lifecycle)
 
 
-### Free
+### 5. Free
     工具、工作...等分享
 
 ### 參考學習文件
