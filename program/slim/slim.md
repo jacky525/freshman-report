@@ -64,10 +64,10 @@
             IAM
                 create user 
                 create Roles
-                    forec2
+                    for ec2
                         - AWSCodeDeployFullAccess
                         - AmazonS3ReadOnlyAccess
-                    forcodedeploy
+                    for codedeploy
                         - AWSCodeDeployRole
                 create Policies 
             S3 
