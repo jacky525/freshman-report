@@ -10,5 +10,8 @@
     * [Slim 雛型](program/slim/slim.md)
     * [協助等時圈專案上線](program/openbird/openbird.md)
     * [內部定期技術分享](program/study/study.md)
-
+* [主機相關技術分享](server/server.md)
+    * [modsecurity](server/tools/modsecurity.md)
+    * [OpenCC](server/tools/OpenCC.md)
+    * [swoole](server/tools/swoole.md)
 
